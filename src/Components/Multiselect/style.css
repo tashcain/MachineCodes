@@ -1,0 +1,48 @@
+.multi-input-wrapper{
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+    gap: 10px;
+}
+
+.multi-input{
+    border: none;
+    
+    /* margin: 0 0 5px 5px;
+    padding: 5px; */
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.pill{
+    background: pink;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 0 5px 0 5px;
+}
+
+.input-list{
+    position: relative;
+}
+
+.list-sel > ul{
+    position: absolute;
+    top: 20px;
+    background: whitesmoke;
+    list-style: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 30px;
+}
+
+.list-sel > ul > li:hover{
+    cursor: pointer;
+    /* background-color: grey; */
+    text-decoration: underline;
+}

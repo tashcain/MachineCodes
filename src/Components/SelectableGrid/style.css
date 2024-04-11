@@ -1,0 +1,23 @@
+
+.grid-wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(var(--cols) , 1fr);
+    grid-template-rows: repeat(var(--rows) , 1fr);
+    user-select: none;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+}
